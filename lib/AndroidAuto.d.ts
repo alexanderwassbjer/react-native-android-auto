@@ -1,5 +1,5 @@
-import { NativeEventEmitter } from 'react-native';
-import { AndroidAutoTemplate } from './types';
+import { NativeEventEmitter } from "react-native";
+import { AndroidAutoTemplate } from "./types";
 export declare const AndroidAutoModule: {
     init(): void;
     eventEmitter: NativeEventEmitter;

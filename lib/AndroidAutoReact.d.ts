@@ -1,6 +1,6 @@
-import React from 'react';
-import { ExtractElementByType, Route, RootContainer } from './types';
-declare type ScreenContainer = ExtractElementByType<'screen'>;
+import React from "react";
+import { ExtractElementByType, Route, RootContainer } from "./types";
+declare type ScreenContainer = ExtractElementByType<"screen">;
 export declare function RootView(props: {
     containerInfo: RootContainer;
     children?: React.ReactNode;
@@ -13,7 +13,7 @@ export declare const useCarNavigation: () => {
 };
 export declare const Screen: React.NamedExoticComponent<{
     name: string;
-    render: ScreenContainer['render'];
+    render: ScreenContainer["render"];
 }>;
 export declare const ScreenManager: React.NamedExoticComponent<{
     children: any;
